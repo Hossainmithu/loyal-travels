@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Loyal Travel</title>
-  <link rel="stylesheet" href="styles/bloge.css">
-</head>
+  
+<link rel="stylesheet" href="./Loyal Travel_files/bloge.css"></head>
 
 <body>
   <!-- header section start -->
   <header>
     <nav class="nav-sec">
       <div class="nav-icon">
-        <img src="Images/Group 40071 (2).png" alt="">
+        <img src="./Loyal Travel_files/Group 40071 (2).png" alt="">
         <h3 class="nav-icon-title">Loyal <span class="nav-icon-title2">Travel</span></h3>
       </div>
       <ul class="nav-tag">
@@ -57,23 +56,23 @@
         </div>
         <button class="btn-primary">Read More</button>
       </div> 
-      <img class="popular-tours-img" src="Images/Rectangle 4.png" alt="">
+      <img class="popular-tours-img" src="./Loyal Travel_files/Rectangle 4.png" alt="">
     </section>
     <section class="choose">
       <h3 class="choose-title">Choose Your Destination</h3>
       <p class="choose-description">MV Bay One cruise Ship, one of the main attractions of ‘Sea Tourism’ in the world, is being added to the tourism industry of Chittagong to Saint Martin this time.</p>
       <div class="img-1">
-        <img src="Images/Rectangle 5.png" alt="">
-        <img src="Images/Rectangle 8.png" alt="">
+        <img src="./Loyal Travel_files/Rectangle 5.png" alt="">
+        <img src="./Loyal Travel_files/Rectangle 8.png" alt="">
       </div>
       <div class="img-2">
-        <img src="Images/Rectangle 6.png" alt="">
-        <img src="Images/Rectangle 7.png" alt="">
-        <img src="Images/Rectangle 9.png" alt="">
+        <img src="./Loyal Travel_files/Rectangle 6.png" alt="">
+        <img src="./Loyal Travel_files/Rectangle 7.png" alt="">
+        <img src="./Loyal Travel_files/Rectangle 9.png" alt="">
       </div>
       <div class="img-3">
-        <img src="Images/Rectangle 11.png" alt="">
-        <img src="Images/Rectangle 10.png" alt="">
+        <img src="./Loyal Travel_files/Rectangle 11.png" alt="">
+        <img src="./Loyal Travel_files/Rectangle 10.png" alt="">
       </div>
     </section>
     <section class="why-choose">
@@ -81,18 +80,18 @@
       <p class="why-choose-description">Our agency is very usefull and less costy also.</p>
       <div class="container">
         <div class="container-1">
-          <img src="Images/flat-hotel-building_23-2148149230.avif" alt="">
+          <img src="./Loyal Travel_files/flat-hotel-building_23-2148149230.avif" alt="">
           <h4 class="container-1-title">Handpicked Hotels</h4>
           <p class="container-1-description">Our prestigious collection of family-owned hotels invites you to escape the everyday and experience glorious Britain at its very finest.</p>
         </div>
         <div class="container-2">
-          <img src="Images/icon-3d-map-with-red-pin-location-tag_107791-15771.avif" alt="">
+          <img src="./Loyal Travel_files/icon-3d-map-with-red-pin-location-tag_107791-15771.avif" alt="">
           <h4 class="container-1-title">World Class Service</h4>
           <p class="container-1-description">Customer service is an absolutely crucial, often under-appreciated pillar of a successful business. </p>
         </div>
       </div>
       <div class="container-3">
-        <img src="Images/illustration-label-tag_53876-5901.avif" alt="">
+        <img src="./Loyal Travel_files/illustration-label-tag_53876-5901.avif" alt="">
         <h4 class="container-1-title">Best Price Guarantee</h4>
         <p class="container-1-description">Our Best Price Guarantee means that you can be sure of booking at the best rate.</p>
       </div>
@@ -100,20 +99,59 @@
     <section class="newsletter">
       <div class="newsletter-content">
         <h4 class="newsletter-title">Newsletter</h4>
-        <p class="container-1-description">Get your daily dose of travel news & tips. Sign up today!</p>
+        <p class="container-1-description">Get your daily dose of travel news &amp; tips. Sign up today!</p>
         <input type="text" placeholder="Enter Your Name">
         <input type="text" placeholder="Enter Your email">
         <button class="btn-primary">Subscribe</button>
       </div>
       <div class="newsletter-img">
-        <button class="btn-primary-2">
-          <h5 class="travel">Travel.com</h5>
-          <h4 class="save">Save up to 70%</h4>
+        <img src="./Loyal Travel_files/Rectangle 8 (1).png" alt="">
+        <button class="btn-primary">
+          <h5>Travel.com</h5>
+          <h4>Save up to 70%</h4>
         </button>
       </div>
     </section>
   </main>
 
-</body>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 
-</html>
+
+</body></html>
